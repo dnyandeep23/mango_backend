@@ -720,12 +720,13 @@ export interface ApiClientClient extends Schema.CollectionType {
     singularName: 'client';
     pluralName: 'clients';
     displayName: 'client';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    mobile: Attribute.Integer;
+    mobile: Attribute.BigInteger;
     password: Attribute.String;
     email: Attribute.Email;
     createdAt: Attribute.DateTime;

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client",
     "pluralName": "clients",
-    "displayName": "client"
+    "displayName": "client",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "mobile": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "password": {
       "type": "string"
